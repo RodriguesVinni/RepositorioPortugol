@@ -4,7 +4,7 @@ programa
 	//número é par ou ímpar, e se é positivo ou negativo.
 	funcao inicio()
 	{
-		real numero=0
+		inteiro numero
 
 		escreva("Digite seu número: ")
 		leia(numero)
@@ -21,14 +21,14 @@ programa
 
 		}
 		
-		se  (numero%2=0)
+		se  ((numero%2)==0)
 		{
 			escreva("Esse número é par")
 		}
 		
 		senao
 		{
-			escreva("Esse número é imar")
+			escreva("\nEsse número é impar")
 		}
 		
 	}
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 400; 
+ * @POSICAO-CURSOR = 456; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

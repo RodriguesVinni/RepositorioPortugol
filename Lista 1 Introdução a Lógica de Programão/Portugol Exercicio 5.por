@@ -4,11 +4,11 @@ programa
 	funcao inicio()
 	{
 		real mediaA,mediaB,mediaC,mediaPonderada
-		escreva("Digite sua Média A: ");
+		escreva("Digite sua Nota A: ");
 		leia(mediaA);
-		escreva("Digite sua Média B: ");
+		escreva("Digite sua Nota B: ");
 		leia(mediaB);
-		escreva("Digite sua Média C: ");
+		escreva("Digite sua Nota C: ");
 		leia(mediaC);
 		//prossamento
 		mediaPonderada=((mediaA*2)+(mediaB*3)+(mediaC*5))/10
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 299; 
+ * @POSICAO-CURSOR = 202; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

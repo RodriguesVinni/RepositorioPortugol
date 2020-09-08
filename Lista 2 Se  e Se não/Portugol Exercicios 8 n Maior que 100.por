@@ -1,21 +1,20 @@
 programa
 {
-		inclua biblioteca Matematica --> mat
+	/*8) Construa um sistema para ler uma variável numérica N e imprimi-la somente se a mesma
+for maior que 100, caso contrário imprimi-la com o valor zero. */
 	
 	funcao inicio()
 	{
-		real x1, y1, x2, y2, distancia
-		escreva("A")
-		leia(x1)
-		leia(y1)
-		leia(x2)
-		leia(y2)
+		inteiro n
 
-		escreva("Os pontos são: P1( " ,x1, " , " ,y1, " ) e P2 ( " ,x2, " , " ,y2, " ) \n")
+		escreva("Digite o número: ")
+		leia(n)
 
-		distancia = mat.arredondar(mat.raiz((mat.potencia(x2-x1,2.0)+mat.potencia(y2-y1,2.0)),2.0), 2.0)
-
-		escreva("A distancia é de: ", distancia)
+		se (n>100)
+		escreva("Seu número é: ",n)
+		
+		senao 
+		escreva(0)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 394; 
+ * @POSICAO-CURSOR = 199; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
